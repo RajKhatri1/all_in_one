@@ -19,6 +19,8 @@ class _ott_screenState extends State<ott_screen> {
     falseprovider = Provider.of<all_in_one_provider>(context, listen: false);
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(backgroundColor: Colors.cyan,leading: Icon(Icons.menu),title: Text("Enetertainment"),centerTitle: true),
+
         body: Padding(
           padding: const EdgeInsets.all(8.0),
           child: GridView.builder(gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),itemCount: falseprovider!.ottimg.length, itemBuilder: (context, index) {

@@ -20,6 +20,7 @@ class _food_screenState extends State<food_screen> {
     falseprovider = Provider.of<all_in_one_provider>(context, listen: false);
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(backgroundColor: Colors.cyan,leading: Icon(Icons.menu),title: Text("Food"),centerTitle: true),
         body: Padding(
             padding: const EdgeInsets.all(8.0),
             child: GridView.builder(

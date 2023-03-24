@@ -52,9 +52,9 @@ List ecomname =[
   List ottimg = [
     "assets/images/hotstar.jpg",
     "assets/images/net.jpg",
-    "assets/images/sony.png",
+    "assets/images/so.jpg",
     "assets/images/jio.jpg",
-    "assets/images/voot.png",
+    "assets/images/voo.png",
   ];
 
   List foodimg = [

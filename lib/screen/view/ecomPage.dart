@@ -19,6 +19,8 @@ class _ecom_screenState extends State<ecom_screen> {
     falseprovider = Provider.of<all_in_one_provider>(context, listen: false);
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(backgroundColor: Colors.cyan,leading: Icon(Icons.menu),title: Text("E-commerce"),centerTitle: true),
+
         body: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Padding(
