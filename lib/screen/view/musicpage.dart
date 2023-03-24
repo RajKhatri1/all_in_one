@@ -41,7 +41,7 @@ class _music_screenState extends State<music_screen> {
             Navigator.pushNamed(context, 'web');
           },
           child: Container(
-            height: 130,
+            height: 120,
             width: 150,
             decoration: BoxDecoration(
                 boxShadow: [BoxShadow(color: Colors.black,blurStyle: BlurStyle.outer,blurRadius: 2)],
